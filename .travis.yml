@@ -5,10 +5,7 @@ language: php
 
 env:
   global:
-    - RUN_PHPCS="no"
-    - INSTALL_MEMCACHE="yes"
-    - INSTALL_MEMCACHED="yes"
-    - INSTALL_REDIS="yes"
+    - RUN_PHPCS="yes"
 php:
   - 5.6
 
